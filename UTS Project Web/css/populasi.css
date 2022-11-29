@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+#header{
+    height: 75px;
+    padding-bottom: 50px;
+    background: transparent;
+    margin-bottom: 50px;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    color:  #385E72;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:#ADB3BC;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #385E72;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+#sidebar{
+    width: 10%;
+    height: 70%;
+    float: left;
+}
+#content{
+    width: 90%;
+    height: 70%;
+    float: right;
+}
+.col{
+    flex-basis: 50%;
+    position: relative;
+}
+.featured-img{
+    width: 75%;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 30px;
+    /* border: 10px solid #385E72;
+    border-right: #fff; */
+    padding: 5px;
+}
+.col h1{
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    background: #385E72;
+    color: #fff;
+    width: 500px;
+    padding: 10px;
+}
+.col p{
+    text-decoration: none;
+    padding: 28px 50px;
+    text-align: left;
+    color: #ADB3BC; 
+    margin-right: 50px;
+    font-size: 25px;
+    background:  #fff;
+    margin-top: 20px;
+}
+.col h3{
+    text-align: left;
+    font-size: 40px;
+    color: #385E72;
+    width: 300px;
+    background:  #ADB3BC;
+    padding: 20px;
+}
+
+.garis{
+    border: 2px solid #D8D7D5;
+    width: 500px;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#col1{
+    width: 30%;
+    height: 70%;
+}
+#col2{
+    width: 70%;
+    height: 50%;
+}
+#icon{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+.garis{
+    width: 1200px;
+    float: center;
+}
